@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: .9em;
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
