@@ -1,0 +1,42 @@
+.circulo {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45, 1) 100%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    animation-name: rotacao;
+    animation-duration: 0.7s;
+    animation-iteration-count:  infinite;
+}
+
+@keyframes rotacao {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
+
+button:hover {
+    animation-name: botao;
+    animation-duration: 1s;
+    animation-delay:  0.5s;
+}
+
+@keyframes botao {
+    0% {
+        padding: 8px 16px;
+    }
+    100% {
+        padding: 16px 32px;
+    }
+}
